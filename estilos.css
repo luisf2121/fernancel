@@ -11,6 +11,10 @@ header{
     text-align:center ;
     border-style: ridge;
 }
+header{
+    background-image: linear-gradient(to left, rgb(147, 135, 135), rgb(161, 167, 174),rgb(201, 193, 193), #9b8d8db4);
+}
+
 .logo{
     width: 150px;
     height: 75px;
@@ -22,6 +26,11 @@ header{
         display:inline-block;
         margin-top:20px;
     }
+.bar:hover{
+    transform: scale(1.23); 
+    transition: 1s;
+    
+}
 .link{
     text-decoration: none;
     color: black;

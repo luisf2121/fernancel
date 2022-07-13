@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
     <title>Inicio</title>
     
@@ -41,8 +42,8 @@
                 <div class="ofertas">Ofertas</div>
             </div>
             <div class="ofertac">
-                <div class="op oferta1"><img class="ofertai" src="./multimedia/oferta.jpg"></div>
-                <div class="op oferta2"><img class="ofertai" src="./multimedia/oferta.jpg"></div>
+                <div data-aos="zoom-in" class="op oferta1"><img class="ofertai" src="./multimedia/oferta.jpg"></div>
+                <div data-aos="fade-left" class="op oferta2"><img class="ofertai" src="./multimedia/oferta.jpg"></div>
             </div>
         </section>
         <section>
@@ -50,8 +51,8 @@
                 <div class="productos">Productos</div>
             </div>
             <div class="ofertac">
-                <div class="op producto1"><img class="ofertai" src="./multimedia/producto.jpg"></div>
-                <div class="op producto2"><img class="ofertai" src="./multimedia/producto.jpg"></div>
+                <div data-aos="zoom-in" class="op producto1"><img class="ofertai" src="./multimedia/producto.jpg"></div>
+                <div data-aos="fade-up-left" class="op producto2"><img class="ofertai" src="./multimedia/producto.jpg"></div>
             </div>
         </section>
     </main>
@@ -71,5 +72,10 @@
             </div>
         <h2 class="textfooter">Todos los derechos reservados por copyright </h2>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
