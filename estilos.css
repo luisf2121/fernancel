@@ -28,27 +28,6 @@ header{
     font-size: 28px;
     padding: 7px;
 }
-@media screen and (max-width:600px)
-{
-    .barra1{
-        display:flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        height: auto;
-    }
-    .link{
-        font-size: 15px;
-    }
-    header{
-        width: 100%;
-        height: auto;
-    }
-}
-@media screen and (max-width:680px) {
-    .link{
-        font-size: 20px;
-    }
-}
 .repara{
     width:100%;
     height: auto;
@@ -132,13 +111,6 @@ header{
     width: 100%;
 }
 
-@media screen and (min-width: 670px)
-{
-.ofertac{
-    display: flex;
-}  
-}
-
 /*termina ofertas y productos- comienza footer*/
 
 footer{
@@ -219,6 +191,97 @@ footer{
     font-size: 40px;
     text-align: center;
 }
+
+/*Comienza main de producto*/
+.submenu{
+    height: auto;
+    border: 2px solid gray;
+    margin: 5px;
+}
+.categoria{
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.galeri{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(12, 1fr);
+
+}
+.galeria{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.galeria-image{
+    width: 100%;
+    padding: 15px;
+}
+
+/*comienza main de contacto*/
+.formulario {
+    border: 2px solid;
+    width: 1000px;
+    height: 600px;
+    margin: 30px;
+}
+.tform {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+.bloquea {
+    display: inline-block;
+
+}
+.bloqueb { 
+    text-align: right;
+
+}
+.bloque1 {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.bloque2 {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:600px)
+{
+    .barra1{
+        display:flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: auto;
+    }
+    .link{
+        font-size: 15px;
+    }
+    header{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .link{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 670px)
+{
+.ofertac{
+    display: flex;
+}  
+}
+
 @media screen and (min-width:680px) 
 { 
     .nosotroscaja{
@@ -264,19 +327,7 @@ footer{
         padding-left: 40px;
     }
 }
-/*Comienza main de producto*/
-.submenu{
-    height: auto;
-    border: 2px solid gray;
-    margin: 5px;
-}
-.categoria{
-    display: inline-block;
-    padding: 10px;
-    border-right: 1px solid;
-    margin-left: 10px;
-    font-size: 18px;
-}
+
 @media screen and (max-width:400px)
 {
     .categoria{
@@ -285,62 +336,19 @@ footer{
         border: 1px solid;
     }
 }
-.galeri{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(12, 1fr);
 
-}
-.galeria{
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-}
-.galeria-image{
-    width: 100%;
-    padding: 15px;
-}
 @media screen and (min-width:600px) 
 {
     .galeri{
-        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(6, 1fr);
     }
 }
+
 @media screen and (min-width:1000px)
 {
     .galeri{
-        display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: repeat(4, 1fr);
     }
-}
-/*comienza main de contacto*/
-.formulario {
-    border: 2px solid;
-    width: 1000px;
-    height: 600px;
-    margin: 30px;
-}
-.tform {
-    text-align: center;
-    font-size: 25px;
-    padding: 5px;
-}
-.bloquea {
-    display: inline-block;
-
-}
-.bloqueb { 
-    text-align: right;
-
-}
-.bloque1 {
-    margin-left: 50px;
-    margin-top: 10px;
-}
-.bloque2 {
-    margin-left: 50px;
-    margin-top: 10px;
 }
