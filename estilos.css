@@ -11,28 +11,37 @@ header{
     text-align:center ;
     border-style: ridge;
 }
+header{
+    background-image: linear-gradient(to left, rgb(147, 135, 135), rgb(161, 167, 174),rgb(201, 193, 193), #9b8d8db4);
+}
 .logo{
     width: 150px;
     height: 75px;
     float:left;
     margin-left: 15px;
     }
+
 .bar{
         list-style: none;
         display:inline-block;
         margin-top:20px;
     }
+.bar:hover{
+    transform: scale(1.25);
+    transition:1s;
+    
+
+}
 .link{
     text-decoration: none;
     color: black;
-    font-size: 28px;
+    font-size: 25px;
     padding: 7px;
 }
 .repara{
     width:100%;
     height: auto;
 }
-
 .barra2 {
     background-color: gainsboro;
     width: 100%;
@@ -54,8 +63,7 @@ header{
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "ofertas" 
-    "productos"
-
+    "productos";
 }
 
 .ofertas{
@@ -225,7 +233,7 @@ footer{
 /*comienza main de contacto*/
 .formulario {
     border: 2px solid;
-    width: 1000px;
+    width: auto;
     height: 600px;
     margin: 30px;
 }
@@ -233,21 +241,23 @@ footer{
     text-align: center;
     font-size: 25px;
     padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 .bloquea {
     display: inline-block;
 
 }
 .bloqueb { 
-    text-align: right;
+    text-align: center;
 
 }
 .bloque1 {
-    margin-left: 50px;
+    margin-left: 10px;
     margin-top: 10px;
 }
 .bloque2 {
-    margin-left: 50px;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
