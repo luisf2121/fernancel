@@ -30,12 +30,8 @@ header{
 .bar:hover{
     transform: scale(1.25);
     transition:1s;
-    
-
-    transform: scale(1.23); 
-    transition: 1s;
-    
 }
+
 .link{
     text-decoration: none;
     color: black;
